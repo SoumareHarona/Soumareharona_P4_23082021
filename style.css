@@ -56,10 +56,6 @@ a:hover {
     padding: 20px 50px;
 }
 
-.col-sm-12  p{
-    font-size: 25px;
-}
-
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -95,6 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -822,10 +819,11 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    width: 100%;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-ConvertImage.png");
 }
 
 @media (max-width: 1024px) {
