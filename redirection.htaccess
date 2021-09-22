@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} !
+RewriteRule ^(.*)$ https://www.soumareharona.github.io/Soumareharona_P4_23082021/index.html/$1 [R=301,L]
