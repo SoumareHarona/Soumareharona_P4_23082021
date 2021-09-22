@@ -801,12 +801,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577;
-    border-color: #364577;
+    color: #364577!important;
+    border-color: #364577!important;
 }
 
 .bg-dots-bg {
